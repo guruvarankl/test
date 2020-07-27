@@ -24,6 +24,6 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: '/SpringBootHelloWorld/DockerFile'
+        dockerfile: 'SpringBootHelloWorld/DockerFile'
         tags: |
           $(tag)
